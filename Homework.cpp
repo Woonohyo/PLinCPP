@@ -125,8 +125,8 @@ class Lorem {
 // 9¹ø ¹®Á¦
 class Character {
 private:
-	char ID[16];
-	char variousStat;
+	string ID;
+	int variousStat;
 	int level;
 	int hp;
 	int mp;
@@ -150,7 +150,7 @@ public:
 
 class Item {
 private:
-	char name[20];
+	string name;
 	int quantity;
 public:
 	void info();
